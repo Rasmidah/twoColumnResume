@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-column Resume using Grid</title>
+    <link rel="stylesheet" href="two-column.css">
+</head>
+<body>
+    <!-- A div with the class container that holds all of the information  -->
+    <div class="container">
+        <!-- a container to specify the left column -->
+        <div class="left-column">
+            <!-- using semantic tag: header for profile pic, name and title  -->
+            <header>
+                <img src="Rasmidah Shekul Islam - profile.png" alt="profile pic">
+                <h2> Jane Doe </h2>
+                <p> Web Developer </p>
+            </header>
+
+            <!-- first list  -->
+                <section>
+                  <h2> Contact </h2>  
+                    <ul>
+                        <li> Email: jane.doe@gmail.com</li>
+                        <li> Phone: (555) 123-4567 </li>
+                        <li> Location: San Francisco, CA </li>
+                        <li> Linkedln: linkedln.com/in/janedoe </li>
+                        <li> GitHub: github.com/janedoe </li>
+                    </ul>
+                </section>
+            <!-- second list  -->
+                <section>
+                    <h2> Skills </h2>
+                    <ul>
+                        <li>HTML5/ CSS3</li>
+                        <li> JavaScript/ TypeScript </li>
+                        <li> React/ Vue.js</li>
+                        <li> Node.js/ Express </li>
+                        <li> SQL/ MongoDB</li>
+                        <li>Git/ GitHub </li>
+                        <li> Responsive Web design</li>
+                        <li> UI/UX Design Principles </li>
+                    </ul>
+                </section>
+            </div>
+            <!-- end of first container  -->
+
+            <!-- another div to specify the right column -->
+            <div class="right-column">
+                
+                <!-- section that contain summary  -->
+                    <section>
+                        <h3> Professional Summary </h3>
+                        <p> Dedicated and efficient web developer with 5+ years of experience in creating responsive and user-friendly websites. Proficient in front-end and bacj-end technologies, with a strong focus on modern Javascript frameworks. Passionate about clean codes and innovative web solutions </p>
+                    </section>
+        
+                <!-- section for work experience  -->
+                    <section>
+                        <!-- first experience  -->
+                        <h3> Work Experience</h3>
+                        <p class="job-title"> Senior Web Developer - TechFront Solutions </p>
+                        <p class="job-date"> January 2020 - Present </p>
+
+                        <!-- the use of ul and li to list down the exoerience  -->
+                        <ul class="lists">
+                            <li> Lead a team of 4 developers in creating and maintaining large-scale web applications </li>
+                            <li> Implemented a new React-based front-end architecture, improving performance by 35% </li>
+                            <li> Collaborated with UX designers to create intuitive interfaces for complex data visualization tools </li>
+                            <li> Mentored juniors developers and conducted code reviews to ensure high-quality deliverables </li>
+                        </ul>
+
+                        <br>
+
+                        <!-- second experience  -->
+                        <p class="job-title"> Web Developer </p>
+                        <p class="job-date"> June 2017 - December 2019 </p>
+
+                        <!-- the use of ul and li to list down the exoerience  -->
+                        <ul class="lists">
+                            <li> Developed and maintained client websites using HTML5, CSS3, and JavaScriot</li>
+                            <li> Created custom WordPress themes and plugins to meet specific client requirements </li>
+                            <li> Optimized website performance, achiecing a 40% reduction in load times </li>
+                            <li> Integrated third-party APIs to enhance website functionality and user experience </li>
+                        </ul>
+                    </section>
+
+                    <!-- section for education -->
+                    <section>
+                        <h3> Education </h3>
+                        <p class="job-title"> Bachelor of Science </p>
+                        <p> University of Technology, Graduated: May 2017 </p>
+                    </section>
+
+                    <!-- section for projects  -->
+                    <section>
+                        <h3> Projects </h3>
+                        <p> <span class="job-title"> E-commerce Platform:</span> Built a full-stack online using React, Node.js, and MongoDB </p>
+                        <p> <span class="job-title"> Task Management App:</span> Developed a responsive web app using Vue.js, and Firebase </p>
+                        <p> <span class="job-title"> Portfolio Website </span> Designed and implemented a personal portfolio showcasing wed development projects </p>
+                    </section>
+            </div>
+            <!-- end of right column -->
+    </div>
+</body>
+</html>
